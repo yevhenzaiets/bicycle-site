@@ -5,10 +5,13 @@ $minwidth: 320px;
 
 @import 'min.scss';
 @import 'header.scss';
+@import 'generation.scss';
+@import 'brands.scss';
 
 .container {
     max-width: 1130px;
     padding: 0 15px;
+	margin: 0 auto;
 }
 
 .wrapper {

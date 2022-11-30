@@ -11,12 +11,10 @@
         justify-content: center;
         align-items: center;
     }
-
     &__logo{
         position: absolute;
         top: 0;
     }
-
     @media (max-width: 767px) {
         top: 20px;
     }
@@ -25,7 +23,6 @@
 .menu {
     &__list{
         display: flex;
-
         li{
             position: relative;
             padding: 0 37.5px;
@@ -52,8 +49,7 @@
                 }
             }
         }
-    }
-    
+    }  
     &__link {
         font-size: 13px;
         font-weight: 700;
@@ -61,7 +57,6 @@
         letter-spacing: 2.6px;
         color: #4d4959;
     }
-
     @media (max-width: 767px) {
         &__body {
             position: fixed;
@@ -71,6 +66,13 @@
             left: 0;
             background-color: #4d4959;
             padding: 150px 0 20px 0;
+            overflow: auto;
+            transform: translateY(-100%);
+            transition: transform 0.2s ease-out;
+            &.active {
+                transform: translateY(0px);
+                transition: transform 0.3s ease-in;
+            }
         }
 
         &__list{
@@ -114,8 +116,8 @@
     @media (max-width: 767px) {
         display: block;
         position: absolute;
-        top: 18px;
-        right: 10px;
+        top: 33px;
+        right: 15px;
         width: 30px;
         height: 18px;
         cursor: pointer;
@@ -127,13 +129,14 @@
             position: absolute;
             width: 100%;
             height: 2px;
-            background-color: #fff;
+            background-color: #4d4959;
             &:first-child{top: 0;}
             &:last-child{top: auto; bottom: 0;}
             transform: scale(1);
         }
         &.active{
-            span {
+            span{
+                background-color: #fff;
                 &:first-child{rotate: (-45deg); top: 8px;}
                 &:last-child{rotate: (45deg); bottom: 8px;}
                 &:nth-child(2) {transform: scale(0);}
