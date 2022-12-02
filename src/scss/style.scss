@@ -7,8 +7,11 @@ $minwidth: 320px;
 @import 'header.scss';
 @import 'generation.scss';
 @import 'brands.scss';
+@import 'slider.scss';
+@import 'shop.scss';
 
 .container {
+	height: auto;
     max-width: 1130px;
     padding: 0 15px;
 	margin: 0 auto;

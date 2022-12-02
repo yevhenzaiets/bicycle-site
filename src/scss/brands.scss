@@ -85,6 +85,16 @@
         background-color: rgba(100, 194, 158, 0.5);
         opacity: 0;
         visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        span{
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2.8px;
+            color: #fff;
+        }
     }
     &:hover{
         .item__logo{

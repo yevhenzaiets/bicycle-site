@@ -1,0 +1,52 @@
+@import './node_modules/swiper/swiper.scss';
+
+.slider{    
+    background-color: #f7f7f7;
+    padding: 120px 0 60px 0;
+
+    &__icon{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0 0 35px 0;
+    }
+    &__tittle{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: #353738;
+        margin: 0 0 20px 0;
+        span {
+            font-weight: 300;
+            color: #848789;
+        }
+    }
+    &__text{
+        text-align: center;
+        font-size: 24px;
+        font-style: italic;
+        line-height: 34px;
+        color: #848789;
+        margin: 0 20px;
+    }
+}
+
+
+// .swiper-pagination {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .swiper-pagination .swiper-pagination-bullets {
+//     width: 200px;
+//     height: 200px;
+//     background-color: black;
+// }
+
+// .bullet {
+//     width: 12px;
+//     height: 12px;
+//     background: black;
+// }

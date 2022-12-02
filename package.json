@@ -35,5 +35,8 @@
     "gulp-zip": "^5.1.0",
     "sass": "^1.56.1",
     "webp-converter": "^2.2.3"
+  },
+  "dependencies": {
+    "swiper": "^8.4.5"
   }
 }
