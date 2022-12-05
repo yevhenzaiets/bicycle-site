@@ -257,7 +257,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   line-height: 34px;
   color: #848789;
-  text-align: justify;
 }
 .block__text_j {
   text-align: justify;
@@ -854,7 +853,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url("/img/main-bike.png");
+  background-image: url("../img/main-bike.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
