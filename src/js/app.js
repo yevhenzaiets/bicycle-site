@@ -6,3 +6,17 @@ new Swiper('.swiper', {
         dynamicBullets: true,
     },
 });
+
+/// show header menu 
+const openMenu = document.querySelector('.icon-menu');
+const bodyMenu = document.querySelector('.menu__body');
+
+openMenu.addEventListener('click', () => {
+    if(openMenu.classList.contains('active') || bodyMenu.classList.contains('active')) {
+        openMenu.classList.remove('active');
+        bodyMenu.classList.remove('active');
+    }else{
+        openMenu.classList.add('active');
+        bodyMenu.classList.add('active');
+    }
+})

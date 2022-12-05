@@ -807,8 +807,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   top: 0;
   left: 0;
-}
-.main-screen_bg img {
+  background-image: url("/img/main-bike.png");
   background-size: cover;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
