@@ -1,9 +1,9 @@
-@import '../../node_modules/swiper/swiper-bundle.min.css';
+// @import '../../node_modules/swiper/swiper-bundle.min.css';
+@import './node_modules/swiper/swiper.scss';
 
 .slider{    
     background-color: #f7f7f7;
     padding: 120px 0 60px 0;
-
     &__icon{
         align-items: center;
         text-align: center;
@@ -44,11 +44,11 @@
     @media(max-width: 500px) {
         padding: 50px 0 30px 0;
         &__body {
-            padding: 0 0 60px 0;
+            padding: 0 0 40px 0;
         }
         &__text{
             font-size: 20px;
-            line-height: 28px;
+            line-height: 24px;
         }
         &__icon{
             margin: 0 0 20px 0;
@@ -56,14 +56,23 @@
     }
 }
 
-.swiper-pagination .swiper-pagination-bullet{
-    font-size: 0;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    border: 1px solid #848789;
-    background-color: transparent;
-    &.swiper-pagination-bullet-active {
-        background-color: #a9afb3;
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    & .swiper-pagination-bullet {
+        font-size: 0;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        border: 1px solid #848789;
+        background-color: transparent;
+        cursor: pointer;
+        &.swiper-pagination-bullet-active {
+            background-color: #a9afb3;
+        }
+    }
+    & span {
+        margin: 0 5px;
     }
 }
+
