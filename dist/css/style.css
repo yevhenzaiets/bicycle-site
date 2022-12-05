@@ -257,6 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   line-height: 34px;
   color: #848789;
+  text-align: justify;
 }
 .block__text_j {
   text-align: justify;
